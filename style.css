@@ -1,0 +1,697 @@
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+.wrapper{
+    margin: 0px auto;
+    /*max-width: 100%;*/
+    background: white;
+    /*padding-left:50px;*/
+  
+}
+
+
+.logo{
+    width: 32%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+.githubIcon{
+    width: 5px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+
+.CurrentPage{
+    border: 2px solid #3db2a9;
+    padding: 5px;
+}
+
+#topNavLinks{
+    width: 400px;
+    color: #464848;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 35px;
+    padding: .5%;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+
+.textLinks a{
+    color:#3db2a9;
+}
+
+.textLinks a:hover{ 
+    color: #464848;
+    text-decoration: none;
+}
+
+#nav{
+    position:absolute;
+    z-index: 3;
+    color:#464848;
+    width: 100%;
+    background: #ffffff;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.listFloatTopNav{
+    float: left;
+    padding: 10px 16px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 6px;
+}
+
+/*a: visted a: link a:active {*/   
+    
+
+#nav a {
+    color: #464848;
+    text-decoration: none;
+    
+}
+
+
+#nav a:hover{ 
+    color: #3db2a9;
+    text-decoration: none;
+    border: 2px;
+    
+}
+
+
+a:hover{ 
+    /*color: #ffffff !important;*/
+    text-decoration: none !important;
+    border: 2px;   
+}
+
+
+#currentPage{ 
+    color: #3db2a9;
+    text-decoration: none;
+}
+
+
+#h1{
+    font-family:"Raleway";
+    font-size: 30px;
+    color:#3db2a9;
+    margin:auto;
+    padding-top: 50px;
+    padding-left:100px;
+    text-align: left;
+    font-weight: lighter;
+    
+}
+
+
+.sliderImage1{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+/*
+.rectangle {
+  color: #ffffff;
+  width: 100%;
+  padding: 500px 0px 0px 0px;
+  background-color: #3db2a9;
+  font-size: 30px;
+  margin: 20px;
+    
+}
+*/
+
+p{
+    font-family:"Raleway", 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom: 20px;
+}
+
+.textLeft{
+    font-family:"Raleway", 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right:100px;
+    padding-bottom: 20px;
+    width: 35%;
+    float:left;
+}
+
+.photoRight{
+    float: right;
+    width: 60%;
+    margin-right:4%;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0 auto;
+    color: #464848;
+
+}
+
+.section1{
+    overflow: auto;
+    
+}
+
+.photos{
+    text-align: center;
+}
+
+
+
+#h2{
+    font-family:"Raleway";
+    font-size: 30px;
+    padding-left: 90px;
+    text-transform: uppercase;
+}
+
+#h3{
+    font-family:"Raleway";
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+#footerText{
+    color:#ffffff;
+    text-align: center;
+    margin:0;
+    padding-top: 15px;
+    margin:0;
+    display:block;
+    text-transform: uppercase;
+    list-style-type: none;
+    width:100%;
+    margin: 0px auto;
+}
+
+
+.footer{
+    background: #3db2a9;
+    text-align: center;
+    overflow: auto;
+    width:100%;
+
+}
+
+
+.clear {
+    clear: both;
+}
+
+#dividerLine {
+    border-top: 4px solid #3db2a9;
+    margin: 0px 100px;
+    padding: 0;
+    
+}
+
+
+
+section.section2{  
+    color: #464848;
+    width: 100%;
+    text-align: left;
+    padding: 0px 0px 0px 413px;
+    margin-left: 100px;
+    margin-top:80px;
+    margin-bottom:40px;
+    background-image: url("photos/home/skillsImg2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: auto;
+}
+
+#h1Skills{
+    font-family:"Raleway";
+    font-size: 30px;
+    color:#3db2a9;
+    margin:auto;
+    padding-left:100px;
+    text-align: left;
+    font-weight: lighter;
+    
+}
+
+.button {
+    background-color: #3db2a9;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button a:visited{
+    color:#ffffff;
+}
+
+.button a:color{
+    color:#ffffff;
+}
+
+.button a:link{
+    color:#ffffff;
+}
+
+.button a:active{
+    color:#ffffff;
+}
+
+.sliderButton a:link{
+    color:#ffffff;
+}
+
+.sliderButton a:hover{
+    color:#ffffff;
+}
+
+.sliderButton a:visited{
+    color:#ffffff;    
+}
+
+
+.sliderButton {
+    border: 3px solid #ffffff ;
+    background-color: transparent;
+    text-color: #ffffff; 
+    top: 90%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+
+.contentLeft{
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+
+.projectPhotos{
+    width: 100%;
+    padding-bottom:40px;
+}
+
+/*PHOTO THUMBNAIL STYLES*/
+
+.gallery{
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 114px;
+    padding-left:100px;
+   
+}
+
+#sliderImg1{
+    background-image: url("photos/home/sliderImg1.jpg");  
+}
+
+#sliderImg2{
+    background-image: url("photos/home/sliderImg4.jpg");
+ 
+}
+
+#sliderImg3{
+    background-image: url("photos/home/sliderImg2.jpg");
+ 
+}
+
+#sliderImg4{
+    background-image: url("photos/home/sliderImg8.jpg");
+    
+}
+#sliderImg5{
+    background-image: url("photos/home/sliderImg6.jpg");
+  
+}
+
+#Excellence11Thumbnail{
+    background-image: url("photos/print/Excellence2017/Excellence11_Thumbnail.jpg");
+}
+
+#Excellence12Thumbnail{
+    background-image: url("photos/print/Excellence2018/Excellence2018_Thumbnail.jpg");
+} 
+
+#MissionTacosThumbnail{
+    background-image: url("photos/print/MissionTacos/MargaritaFlyer.jpg");
+}
+
+#OH_NYE_Thumbnail{
+    background-image: url("photos/print/OysterHouseNYE/OH_NYE_2017.jpg");
+}
+
+#Excellence13_Thumbnail{
+    background-image: url("photos/print/Excellence2019/Excellence_2019_Promo.jpg");
+}
+
+#OH_Shuckfest_Thumbnail{
+    background-image: url("photos/print/OysterHouse_ShuckFest/.jpg");
+}
+{
+    background-image: url("photos/print/Excellence2019/Excellence_2019_Promo.jpg");
+}
+
+#BrochureThumbnail{
+    background-image: url("photos/print/UE_AcordianFold/UrbanEngineersBrochure02.jpg");
+    
+}
+
+#fourthOfJulyThumbnail{
+    background-image: url("photos/lettering/FourthOfJuly/FourthOfJuly1.jpg");
+}
+
+#eventCalligraphyThumbnail{
+    background-image: url("photos/lettering/WeddingPlaceCards/WeddingCalligraphy_01.jpg");
+}
+
+#Lettering_ConnectingThumbnail{
+    background-image: url("photos/lettering/Connecting/Connecting.jpg");
+}
+
+#SummerOfSketchingThumbnail{
+    background-image: url("photos/lettering/SummerOfSketching/SummerOfSketching_Progress2.jpg");
+} 
+
+#thanksgivingThumbnail{
+    background-image: url("photos/lettering/thanksgiving/Thanksgiving_Progress1.jpg");
+}
+
+#urbanPostcardThumbnail{
+    background-image: url("photos/lettering/UrbanPostCard/PostCardProgress2.jpg");
+    
+}
+
+#humiraThumbnail{
+    background-image: url("photos/digital/humira/HumiraThumbnail.jpg");
+}
+
+#portfoltioSiteThumbnail{
+    background-image: url("photos/digital/Portfolio/Portfolio_ResponsiveMockup.jpg");
+}
+
+#melissaCupcakesThumbnail{
+    background-image: url("photos/digital/melissaCupcakes/DesktopMockUp_02.jpg");
+} 
+
+#psoriasisThumbnail{
+    background-image: url("photos/digital/psoriasis/psoriasis_Thumbnail.jpg");
+}
+
+#foodNewsBlogThumbnail{
+    background-image: url("photos/digital/foodNewsBlog/foodNewsBlog_DesktopMockup_Thumbnail.jpg");
+}
+
+#tailsAndTrailsThumbnail{
+    background-image: url("photos/digital/TailsAndTrails/TailAndTrailsMockUp.jpg");   
+    
+}
+
+.thumbnailPhotosHome{
+    width: 29%;
+    padding: 20px;
+}
+
+.thumbnailPhotos{
+    width: 100%;
+    display: block;
+}
+
+.photoHolder {
+    margin: 30px 17px;
+    position: relative;
+    width: 40%;
+    height:400px;
+    float:left; 
+    overflow: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.photoHolder:hover .overlay {
+  opacity: .7;
+}
+
+.photoHolder:hover .captionText {
+  opacity: 1;
+}
+
+.captionText {
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+    z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+ 
+}
+
+.homePageSlider{
+    width: 100%;
+    margin: 0px auto;
+   
+}
+
+#carousel{
+    height: 800px;
+    width: 100%;
+    margin: 0px auto;
+    
+}
+
+.sliderPhotoContainer{
+    position: relative;
+    height:800px !important;
+    width: 100%; 
+    overflow: auto;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+/*END OF THUMBNAIL STYLES*/
+
+
+
+/* ***********************MEDIA QUERY STARTS HERE************************/
+@media screen and (max-width: 932px) {
+    
+    #nav{
+  padding-bottom:none;
+}
+    
+    
+    .logo{
+        width:70%;
+        margin: 0px auto;
+        padding:inherit;
+        float:none;
+        display: block;
+    }
+    
+    #topNavLinks{
+        width:100%;
+        margin:auto 0;
+        float:0;
+        padding:inherit;
+        text-align: center;
+
+    }
+    
+    header nav {
+        position:static;
+        background: #ffffff;
+        
+        
+    }
+    
+    body.home header nav{
+        margin-top: -280px;
+        
+    }
+    
+    .listFloatTopNav{
+    float: none;
+    
+}
+    
+    #wrapper{
+        position:relative;
+        width: 100%
+    }
+    
+    #dividerLine {
+    margin: 0px auto;
+    padding: 0;
+    width: 90%;
+}
+    .gallery{
+    padding-top: 260px;
+    padding-left: 0px;
+}
+    
+    .photoHolder {
+    width: 100%;
+    padding: 400px 0px 10px 0px;
+    margin-left:0px;
+    margin-top: 3px;
+    margin-bottom:20px;
+}
+    
+    #footerText{
+    font-size: 14px;
+    padding-left:0px;
+    padding-right: 0px;
+    }
+
+    .projectPhotos{
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    }
+
+
+    .textLeft{
+    line-height: 25px;
+    width: 100%;
+    float:left;
+    padding-top:140px;
+    padding-right:10px;
+    padding-left:10px;
+    margin-right:20px;
+}
+    
+
+    
+
+.photoRight{
+    width: 100%; 
+    margin-right:0%;
+    margin-left: 0%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+    
+    .contentLeft{
+    padding-top:35%;
+    padding-left: 0%;
+    margin-right: 0px;
+    margin-left:0px;
+}
+    
+    section.section2{  
+    padding: 0px 0px 0px 0px;
+    margin-left: 0px;
+        width:100%;
+ 
+}
+    
+    .skillsText{
+        padding-top: 110vw;
+    }
+    
+    #h1Skills{
+    font-size: 25px;
+    margin:auto;
+    padding-left:30px;
+    
+}
+    
+    #h1{
+    font-size: 25px;
+    margin:auto;
+    padding-left:30px;
+    
+}
+
+    p{
+    line-height: 25px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 20px;
+}
+    
+    .sliderPhotoContainer{
+    height:280px !important;
+        
+}
+    
+    .homePageSlider{
+        margin-top:280px;
+    }
+
+#sliderImg4{
+    background-position: left; 
+    
+}
+    
+    .sliderButton {
+    display: none;
+}
+    
+    .button {
+   
+    margin: 4px 23px;
+    }
+}/* ***********************MEDIA QUERY ENDS HERE************************/
