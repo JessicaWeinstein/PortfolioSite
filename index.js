@@ -6,46 +6,32 @@
 
 
 
-
-// let images = [
-//  "photos/home/sliderImg1.jpg", "photos/home/sliderImg4.jpg", "photos/home/sliderImg2.jpg", 
-//  "photos/home/sliderImg8.jpg", "photos/home/sliderImg6.jpg"
-//  ]
-
-//  let left = document.getElementById("left")
-// let right = document.getElementById("right")
-// let box = document.getElementById("homePageSlider")
-// let index = 0;
-
-
-let colors= ["photos/home/sliderImg1.jpg", "blue", "green", "yellow", "black", "purple", "pink"]
-
-let left = document.getElementById("left")
-let right = document.getElementById("right")
-let carousel = document.getElementById("carousel")
+let leftButton = document.getElementById("leftButton")
+let rightButton = document.getElementById("rightButton")
+let images = document.getElementsByClassName("sliderPhotoContainer")
 let index = 0;
+images[index].style.display = "block";
 
-left.addEventListener("click", moveLeft)
-right.addEventListener("click", moveRight)
+leftButton.addEventListener("click", moveLeft);
+rightButton.addEventListener("click", moveRight);
 
-function assignColors(){
-	carousel.style.background = colors [index +2]
-}
 function moveLeft(){
 	index = index - 1;
+	images [index +1].style.display = "none"
+
 	if (index < 0){
-		index = colors.length-1;
+		index = images.length - 1;
 	}
-	carousel.style.background = colors[index]	
+	images[index].style.display = "block";
 }
 
 function moveRight() {
 	index = index + 1;
-	if (index > colors.length-1){
+	images [index - 1].style.display = "none";
+
+	if (index > images.length - 1){
 		index = 0;
 	}
-	carousel.style.background = colors[index]
+	images [index].style.display = "block";
 
 }
-
-window.onload = assignColors()

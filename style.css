@@ -321,6 +321,31 @@ section.section2{
     text-transform: uppercase;
     
 }
+/*slider photo buttons*/
+#leftButton, #rightButton {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  font-size: 40px;
+}
+
+/* Position the "next button" to the right */
+#rightButton {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#leftButton:hover, #rightButton:hover {
+  background-color: #3db2a9;
+}
+/*END slider photo buttons*/
 
 .contentLeft{
     padding-top: 15%;
@@ -345,6 +370,7 @@ section.section2{
 
 #sliderImg1{
     background-image: url("photos/home/sliderImg1.jpg");  
+
 }
 
 #sliderImg2{
@@ -510,13 +536,6 @@ section.section2{
    
 }
 
-#carousel{
-    height: 800px;
-    width: 100%;
-    margin: 0px auto;
-    
-}
-
 .sliderPhotoContainer{
     position: relative;
     height:800px !important;
@@ -525,7 +544,7 @@ section.section2{
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-  
+    display:none;
 }
 
 /*END OF THUMBNAIL STYLES*/
