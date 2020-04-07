@@ -817,4 +817,21 @@ input[type=text], select, textarea {
     margin: 4px 23px;
     text-decoration: none;
     }
-}/* ***********************MEDIA QUERY ENDS HERE************************/
+
+  .form {
+  padding-top: 60%;
+  padding-left:50px;
+  padding-right:50px;
+
+}
+
+#leftButton, #rightButton {
+  top: 44%;
+}
+
+.modal-content {
+  padding: 30px;
+  width: 100%;
+}
+
+/* ***********************MEDIA QUERY ENDS HERE************************/
