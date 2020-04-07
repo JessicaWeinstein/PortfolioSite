@@ -52,9 +52,9 @@
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #888;
-  width: 80%;
+  width: 50%;
   border: 6px solid #3db2a9;
 }
 
@@ -71,6 +71,10 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.modalIcons{
+  padding-left: 100px;
 }
 
 .CurrentPage{
@@ -103,6 +107,7 @@
     color: #464848;
     text-decoration: none;
 }
+
 
 #nav{
     position:absolute;
@@ -321,30 +326,37 @@ section.section2{
 
 .button a:visited{
     color:#ffffff;
+    text-decoration: none;
 }
 
 .button a:color{
     color:#ffffff;
+    text-decoration: none;
 }
 
 .button a:link{
     color:#ffffff;
+    text-decoration: none;
 }
 
 .button a:active{
     color:#ffffff;
+    text-decoration: none;
 }
 
 .sliderButton a:link{
     color:#ffffff;
+    text-decoration: none;
 }
 
 .sliderButton a:hover{
     color:#ffffff;
+    text-decoration: none;
 }
 
 .sliderButton a:visited{
-    color:#ffffff;    
+    color:#ffffff;   
+    text-decoration: none; 
 }
 
 
@@ -597,10 +609,23 @@ section.section2{
 /* CONTACT FORM*/
 .form {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 20px;
-  padding-top:100px;
+  padding-top: 15%;
+  padding-left:100px;
+  padding-right:100px;
 
+}
+
+#formHeader{
+    font-family:"Raleway";
+    font-size: 30px;
+    color:#3db2a9;
+    margin:auto;
+    padding-top: 50px;
+    text-align: left;
+    font-weight: lighter;
+    
 }
 
 input[type=submit] {
@@ -616,7 +641,7 @@ input[type=submit] {
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #3db2a9;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -789,7 +814,7 @@ input[type=text], select, textarea {
 }
     
     .button {
-   
     margin: 4px 23px;
+    text-decoration: none;
     }
 }/* ***********************MEDIA QUERY ENDS HERE************************/
