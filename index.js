@@ -64,8 +64,43 @@ setTimeout(function(){modal.style.display = "block";}, 3000);
 
 // END MODEL
 
+//_____________
 
-//CONTACT PAGE SUBMIT BUTTON ALERT
+//FUTURE FUNTIONALITIES TO WORK ON:
+
+//WEB HIDDEN PAGES ALERT LOGIN - I'm not allowed to show my psoriasis and humira projects because the Healthcare company I worked for dooesn't allow me to show them publicly. I was to click on the project icon, get an alert to enter a password, when the password "topsecret" is entered, I want the project page to open. 
+
+//ATTEMPT:
+
+// var psoriasisProject = document.getElementById ("psoriasisThumbnail");
+// var humiraProject = document.getElementById ("humiraThumbnail");
+
+// psoriasisProject.addEventListener("click", passWord('webProject_psoriasis.html');
+// humiraProject.addEventListener("click", passWord('webProject_Humira.html');
+
+
+//  function passWord(url) {
+//  var testV = 1;
+//  var pass1 = alert('Please Enter Your Password',' ');
+//  while (testV < 3) {
+        
+//  if (pass1.toLowerCase() == "topsecret") {
+//  window.open(url);
+//  break;
+//  } 
+//  testV+=1;
+//  var pass1 = 
+//  alert('Access Denied - Password Incorrect, Please Try Again.','Password');
+//  }
+// }
+
+// onClick="passWord('webProject_psoriasis.html')" 
+
+//________________
+   
+//CONTACT PAGE SUBMIT BUTTON ALERT - WAS GETTTING ERROR MESSAGE IN CONSOLE THAT LINE 12 INDEX ISN'T DEFINED
+
+//ATTEMPT:
 
 // let submitButton = document.getElementById("submitContactFormButton");
 
