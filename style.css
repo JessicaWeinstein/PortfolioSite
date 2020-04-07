@@ -628,7 +628,7 @@ section.section2{
     
 }
 
-input[type=submit] {
+#submitContactFormButton{
   background-color: #3db2a9;
   color: white;
   padding: 12px 20px;

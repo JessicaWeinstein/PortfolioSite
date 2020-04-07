@@ -5,9 +5,9 @@
 //   - the website should have a image carousel where you can press buttons and go left or right and see different photos;	
 
 //IMAGE SLIDER/CAOURSEL
-let leftButton = document.getElementById("leftButton")
-let rightButton = document.getElementById("rightButton")
-let images = document.getElementsByClassName("sliderPhotoContainer")
+let leftButton = document.getElementById("leftButton");
+let rightButton = document.getElementById("rightButton");
+let images = document.getElementsByClassName("sliderPhotoContainer");
 let index = 0;
 images[index].style.display = "block";
 
@@ -63,3 +63,20 @@ setTimeout(function(){modal.style.display = "block";}, 3000);
 }
 
 // END MODEL
+
+
+//CONTACT PAGE SUBMIT BUTTON ALERT
+
+// let submitButton = document.getElementById("submitContactFormButton");
+
+// submitButton.addEventListener("click", submitForm);
+	
+// 	function submitForm()
+// { 
+      
+//     alert("Thank you for reaching out! Looking forward tooo speaking with you. Expect an email soon frmo jessica.g.weinstein@gmail.com.");
+       
+//  }
+
+
+       
