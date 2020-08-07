@@ -473,11 +473,11 @@ section.section2{
 }
 
 #OH_Shuckfest_Thumbnail{
-    background-image: url("photos/print/OysterHouse_ShuckFest/.jpg");
+    background-image: url("photos/print/OysterHouse_ShuckFest/OH_Fest_2018.jpg");
 }
-{
+/*{
     background-image: url("photos/print/Excellence2019/Excellence_2019_Promo.jpg");
-}
+}*/
 
 #BrochureThumbnail{
     background-image: url("photos/print/UE_AcordianFold/UrbanEngineersBrochure02.jpg");
