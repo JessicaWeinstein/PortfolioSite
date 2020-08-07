@@ -97,8 +97,6 @@
     
 }
 
-
-
 .textLinks a{
     color:#3db2a9;
 }
@@ -322,7 +320,12 @@ section.section2{
     margin: 4px 100px;
     cursor: pointer;
     text-transform: uppercase;
+    outline:none;
 }
+
+.button:hover{
+   background-color: #7ADEE1;
+ }
 
 .button a:visited{
     color:#ffffff;
@@ -614,7 +617,6 @@ section.section2{
   padding-top: 15%;
   padding-left:100px;
   padding-right:100px;
-
 }
 
 #formHeader{
@@ -633,10 +635,14 @@ section.section2{
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
   font-size:16px;
+  outline:none;
 }
+
+#submitContactFormButton:hover{
+   background-color: #7ADEE1;
+ }
 
 input[type=text], select, textarea {
   width: 100%;
@@ -648,6 +654,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   font-size:14px;
+  outline:none;
 }
 
 
