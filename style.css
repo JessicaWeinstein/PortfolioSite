@@ -535,6 +535,11 @@ section.section2{
     
 }
 
+#samTellThumbnail{
+    background-image: url("photos/digital/samTell/samTell_DesktopMockup_Teal.jpg");   
+    
+}
+
 .thumbnailPhotosHome{
     width: 29%;
     padding: 20px;
