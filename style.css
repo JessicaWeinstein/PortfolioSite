@@ -540,6 +540,11 @@ section.section2{
     
 }
 
+#digitalBannersHeadersThumbnail{
+    background-image: url("photos/digital/digitalBannersHeaders/digitalBannersHeadersThumbnail.jpg");   
+    
+}
+
 .thumbnailPhotosHome{
     width: 29%;
     padding: 20px;
