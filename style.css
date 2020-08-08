@@ -550,6 +550,11 @@ section.section2{
     
 }
 
+#Ur60nCampaignThumbnail{
+    background-image: url("photos/digital/60thCampaign/60thThumbnail.jpg");   
+    
+}
+
 .thumbnailPhotosHome{
     width: 29%;
     padding: 20px;
