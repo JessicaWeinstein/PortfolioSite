@@ -555,6 +555,11 @@ section.section2{
     
 }
 
+#UEinstaPosts_Thumbnail{
+    background-image: url("photos/digital/UrbanInstagramPosts/instagramPosts_Mockup_Thumbnail.jpg");   
+    
+}
+
 .thumbnailPhotosHome{
     width: 29%;
     padding: 20px;
