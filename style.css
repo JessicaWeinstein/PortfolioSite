@@ -540,6 +540,11 @@ section.section2{
     
 }
 
+#booksAppThumbnail{
+    background-image: url("photos/digital/booksApp/BooksApp_Thumbnail.jpg");   
+    
+}
+
 #digitalBannersHeadersThumbnail{
     background-image: url("photos/digital/digitalBannersHeaders/digitalBannersHeadersThumbnail.jpg");   
     
