@@ -560,6 +560,11 @@ section.section2{
     
 }
 
+#decorStealsThumbnail{
+    background-image: url("photos/digital/DecorSteals/decorStealsThumbnail.jpg");   
+    
+}
+
 .thumbnailPhotosHome{
     width: 29%;
     padding: 20px;
